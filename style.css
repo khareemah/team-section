@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #22252a;
+}
+.heading {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.team {
+  display: flex;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+.card {
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 22%;
+  background-color: #2d3035;
+  border-radius: 15px;
+  margin: 1.5%;
+  padding: 10px;
+  transition: all 1s linear;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 0px 40px black;
+}
+div > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto;
+}
+.name {
+  color: #ea5e71;
+  font-size: 20px;
+  margin: 5px;
+}
+.title {
+  color: #b9b9b9;
+}
+.description {
+  color: #b9b9b9;
+  margin: 10px 0;
+}
