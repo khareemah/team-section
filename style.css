@@ -29,7 +29,7 @@ body {
   border-radius: 15px;
   margin: 1.5%;
   padding: 10px;
-  transition: all 1s linear;
+  transition: all 1s ease;
 }
 .card:hover {
   transform: translateY(-20px);
@@ -55,14 +55,14 @@ div > img {
   margin: 10px 0;
 }
 /* responsive */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 991px) {
   .card {
     width: 42%;
     margin: 4%;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 550px) {
   .card {
     width: 92%;
     margin: 4%;
